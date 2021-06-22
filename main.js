@@ -18,10 +18,10 @@ function stopWatch () {
 }
 
 
-let time = setInterval(timer, 1000);
-let count = 0;
-let hr = 2;
-let min = 0;
+var time = setInterval(timer, 1000);
+var count = 0;
+var hr = 2;
+var min = 0;
 console.log(`${hr} hr ${min}m ${count}s`);
 
 function timer () {
