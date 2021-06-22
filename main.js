@@ -37,4 +37,3 @@ function timer () {
     clearInterval(time);
 }
 console.log(`${hr} hr ${min}m ${count}s`);
-}
