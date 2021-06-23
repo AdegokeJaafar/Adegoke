@@ -1,21 +1,21 @@
-// var time = setInterval(stopWatch, 1000);
-// var count = 0;
-// var hr = 0;
-// var min = 0;
+var time = setInterval(stopWatch, 1000);
+var count = 0;
+var hr = 0;
+var min = 0;
 
-// function stopWatch () {
-//     count = count + 1;
-//     if (count > 59) {
-//         min = min + 1;
-//         count = 0;
-//     } if (min > 59) {
-//         hr += 1;
-//         min = 0;
-//     } if (hr === 6) {
-//         clearInterval(time);
-//     }
-//     console.log(`${hr}hr ${min}m ${count}s`);
-// }
+function stopWatch () {
+    count = count + 1;
+    if (count > 59) {
+        min = min + 1;
+        count = 0;
+    } if (min > 59) {
+        hr += 1;
+        min = 0;
+    } if (hr === 6) {
+        clearInterval(time);
+    }
+    console.log(`${hr}hr ${min}m ${count}s`);
+}
 
 
 var time = setInterval(timer, 1000);
