@@ -1,3 +1,4 @@
+// STOPWATCH AND TIMER
 var time = setInterval(stopWatch, 1000);
 var count = 0;
 var hr = 0;
